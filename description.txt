@@ -1,0 +1,10 @@
+This webapp is designed to retrieve data from three APIs
+
+#1 Api: This makes the poster and cards with the names
+#2 Api: Finds the name from 1st API and then makes the readmore information
+#3 Api: Searches both apis and then provides where that movie is availble to watch
+
+The design of the webapp derives from Netflix but not the code: the app is using Bulma for its simple designs
+
+
+Project: => Tamim

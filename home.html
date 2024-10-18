@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailer Version - Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Netflix-new-icon.png">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!-- Netflix-style Navbar -->
+    <div>
+        <nav class="navbar" id="mynvbar">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#"> Trailer Netflix</a>
+            </div>
+            <div class="navbar-menu">
+                <a class="read-more-button" href="about.html">About</a>
+            </div>
+        </nav>
+        
+        <div class="video-container">
+            <video id="myVideo" autoplay muted loop class="video-background">
+                <source src="css/Marvel Studios' Avengers_ Endgame - Big Game TV Spot.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button id="soundToggle" class="sound-button">
+                <span id="soundIcon" class="icon">🔊</span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="movieType">
+        <h1 id="movieType">Your next watch</h1>
+    </div>
+
+    <!-- Card Section -->
+    <main class="cards"></main>
+    
+    <!-- Modal for YouTube trailer -->
+    <div id="trailerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <iframe id="trailerIframe" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>

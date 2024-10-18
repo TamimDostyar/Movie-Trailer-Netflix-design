@@ -1,0 +1,8 @@
+.venv
+js/node_modules
+js/package-lock.json
+js/package.json
+js/package-lock.json
+video-api/node_modules
+video-api/package-lock.json
+video-api/package.json
